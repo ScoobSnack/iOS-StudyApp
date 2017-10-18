@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="ilJ-Ht-IgQ">
+            <objects>
+                <viewController storyboardIdentifier="welcome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Urk-4z-atE" customClass="WelcomeViewController" customModule="iOS_StudyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dnJ-DY-MoG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCa-JS-u3z">
+                                <rect key="frame" x="16" y="185" width="314" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="Fve-ir-C2S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="0.96370907549999996" green="0.97329901119999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Study App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqQ-RW-Sa0">
+                                <rect key="frame" x="16" y="20" width="343" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="S50-I6-FE8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.96370907549999996" green="0.97329901119999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1c-w7-8uI">
+                                <rect key="frame" x="137" y="497" width="72" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="IgV-lC-ldx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.96370907549999996" green="0.97329901119999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52727724819999999" green="0.76201520649999999" blue="0.643516647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5jY-U7-q8O" firstAttribute="bottom" secondItem="i1c-w7-8uI" secondAttribute="bottom" constant="114" id="1e2-hA-dFk"/>
+                            <constraint firstItem="PCa-JS-u3z" firstAttribute="centerX" secondItem="i1c-w7-8uI" secondAttribute="centerX" id="8x0-Il-061"/>
+                            <constraint firstItem="iqQ-RW-Sa0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PCa-JS-u3z" secondAttribute="leading" id="HBA-OE-UaV"/>
+                            <constraint firstItem="iqQ-RW-Sa0" firstAttribute="leading" secondItem="dnJ-DY-MoG" secondAttribute="leadingMargin" id="HiA-ci-uHO"/>
+                            <constraint firstItem="PCa-JS-u3z" firstAttribute="top" secondItem="iqQ-RW-Sa0" secondAttribute="bottom" constant="8" symbolic="YES" id="N6g-nD-Czv"/>
+                            <constraint firstItem="iqQ-RW-Sa0" firstAttribute="trailing" secondItem="dnJ-DY-MoG" secondAttribute="trailingMargin" id="fN5-XC-YUj"/>
+                            <constraint firstItem="iqQ-RW-Sa0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PCa-JS-u3z" secondAttribute="trailing" id="kuH-Z3-69Y"/>
+                            <constraint firstItem="iqQ-RW-Sa0" firstAttribute="top" secondItem="5jY-U7-q8O" secondAttribute="top" id="raJ-xA-BQV"/>
+                            <constraint firstItem="i1c-w7-8uI" firstAttribute="leading" secondItem="5jY-U7-q8O" secondAttribute="leading" constant="137" id="tfb-jP-3Zf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5jY-U7-q8O"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0b8-uR-al6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="128.18590704647679"/>
+        </scene>
+    </scenes>
+</document>
