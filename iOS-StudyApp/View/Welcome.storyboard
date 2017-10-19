@@ -45,6 +45,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="0.96370907549999996" green="0.97329901119999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="start:" destination="Urk-4z-atE" eventType="touchUpInside" id="rwl-NT-X9W"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.52727724819999999" green="0.76201520649999999" blue="0.643516647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -100,9 +100,25 @@
                     <view key="view" contentMode="scaleToFill" id="qMd-uv-FxD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7w7-NG-ckh">
+                                <rect key="frame" x="16" y="64" width="343" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuC-oc-ijw">
+                                <rect key="frame" x="29" y="301" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="unselectedButton"/>
+                                <state key="selected" image="selectedButton"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52549019607843139" green="0.76078431372549016" blue="0.64313725490196072" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="eTQ-De-BOL"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="gyk-Zd-eBK">
                         <barButtonItem key="leftBarButtonItem" title="Dismiss" id="keD-Cj-EH4">
                             <connections>
@@ -110,10 +126,12 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOH-4O-QaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="oXR-Rd-fXU"/>
             </objects>
-            <point key="canvasLocation" x="2102" y="-141"/>
+            <point key="canvasLocation" x="2101.5999999999999" y="-141.67916041979012"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ilV-Yv-JCP">
@@ -168,4 +186,8 @@
             <point key="canvasLocation" x="1232" y="614.392803598201"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="selectedButton" width="306" height="300"/>
+        <image name="unselectedButton" width="306" height="300"/>
+    </resources>
 </document>

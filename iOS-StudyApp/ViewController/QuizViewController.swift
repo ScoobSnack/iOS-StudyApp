@@ -9,6 +9,7 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+
     @IBAction func dismiss(_ sender: Any) {
         self.dismiss(animated: true) {
             
@@ -20,5 +21,5 @@ class QuizViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    
 }

@@ -15,5 +15,9 @@ class WelcomeViewController: UIViewController {
         
         
     }
-    
+    @IBAction func start(_ sender: Any) {
+        self.dismiss(animated: true) {
+            
+        }
+    }
 }

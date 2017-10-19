@@ -12,20 +12,17 @@ class DashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
- 
-        // Do any additional setup after loading the view.
-    }
-    
-    
-    override func viewWillAppear(_ animated: Bool) {        
         let storyboard = UIStoryboard(name: "Welcome", bundle: nil)
         
         let viewController = storyboard.instantiateViewController(withIdentifier: "welcome")
         
-        
-        
-        
-        self.present(viewController, animated: true, completion: nil)
-        
+        DispatchQueue.main.async {
+            self.present(viewController, animated: true, completion: nil)
+        }
+ 
+        // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
     }
 }

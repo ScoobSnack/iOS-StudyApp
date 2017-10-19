@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6EB8B6491F97C1830062681E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8B6481F97C1830062681E /* AppDelegate.swift */; };
-		6EB8B64B1F97C1830062681E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8B64A1F97C1830062681E /* ViewController.swift */; };
 		6EB8B64E1F97C1830062681E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8B64C1F97C1830062681E /* Main.storyboard */; };
 		6EB8B6501F97C1830062681E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8B64F1F97C1830062681E /* Assets.xcassets */; };
 		6EB8B6531F97C1830062681E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8B6511F97C1830062681E /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		6EB8B6451F97C1830062681E /* iOS-StudyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-StudyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB8B6481F97C1830062681E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EB8B64A1F97C1830062681E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EB8B64D1F97C1830062681E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EB8B64F1F97C1830062681E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EB8B6521F97C1830062681E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				6EB8B67B1F97CAA40062681E /* DashboardViewController.swift */,
 				6EB8B67A1F97CAA40062681E /* QuizViewController.swift */,
 				6EB8B67C1F97CAA50062681E /* WelcomeViewController.swift */,
-				6EB8B64A1F97C1830062681E /* ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -290,7 +287,6 @@
 			files = (
 				6EB8B67D1F97CAA50062681E /* QuizViewController.swift in Sources */,
 				6EB8B67F1F97CAA50062681E /* WelcomeViewController.swift in Sources */,
-				6EB8B64B1F97C1830062681E /* ViewController.swift in Sources */,
 				6EB8B6491F97C1830062681E /* AppDelegate.swift in Sources */,
 				6EB8B67E1F97CAA50062681E /* DashboardViewController.swift in Sources */,
 			);
